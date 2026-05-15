@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Industry Disclosure Gap",
+  "slug": "ctgov-industry-disclosure-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How large is the industry-specific disclosure gap inside the live ClinicalTrials.gov registry? We analysed the March 29, 2026 full-registry snapshot, focusing on 128,464 industry-linked studies and 87,296 closed interventional industry studies. We derived sponsor-level omission flags for missing results, missing actual dates, missing actual enrollment, missing IPD statements, missing publication links, and missing detailed descriptions, while preserving sponsor-level counts so absolute backlog and rate-based silence could be read together across named firms globally. Among eligible older closed interventional industry studies, 58.1 percent still had no posted results, leaving 44,007 unresolved two-year no-results records in the industry bucket alone. The biggest absolute backlogs sat with GlaxoSmithKline, AstraZeneca, Boehringer Ingelheim, Sanofi, and Pfizer, while several smaller sponsors exceeded 95 percent on the same rate metric. Industry records were also structurally sparse, with 63.2 percent lacking IPD statements, 66.6 percent lacking publication links, and 53.8 percent lacking detailed descriptions. These estimates identify registry-visible non-disclosure rather than adjudicated legal breach.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How large is the industry-specific disclosure gap inside the live ClinicalTrials.gov registry?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed the March 29, 2026 full-registry snapshot, focusing on 128,464 industry-linked studies and 87,296 closed interventional industry studies."
+    },
+    {
+      "role": "Method",
+      "text": "We derived sponsor-level omission flags for missing results, missing actual dates, missing actual enrollment, missing IPD statements, missing publication links, and missing detailed descriptions, while preserving sponsor-level counts so absolute backlog and rate-based silence could be read together across named firms globally."
+    },
+    {
+      "role": "Primary result",
+      "text": "Among eligible older closed interventional industry studies, 58.1 percent still had no posted results, leaving 44,007 unresolved two-year no-results records in the industry bucket alone."
+    },
+    {
+      "role": "Secondary result",
+      "text": "The biggest absolute backlogs sat with GlaxoSmithKline, AstraZeneca, Boehringer Ingelheim, Sanofi, and Pfizer, while several smaller sponsors exceeded 95 percent on the same rate metric."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Industry records were also structurally sparse, with 63.2 percent lacking IPD statements, 66.6 percent lacking publication links, and 53.8 percent lacking detailed descriptions."
+    },
+    {
+      "role": "Boundary",
+      "text": "These estimates identify registry-visible non-disclosure rather than adjudicated legal breach."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Industry Disclosure Gap dashboard",
+    "data": "128,464 industry-linked studies from the March 29, 2026 full-registry snapshot",
+    "code": "https://github.com/mahmood726-cyber/ctgov-industry-disclosure-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate among eligible older closed interventional industry studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
