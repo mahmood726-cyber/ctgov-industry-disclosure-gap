@@ -3,7 +3,7 @@
   "slug": "ctgov-industry-disclosure-gap",
   "author": "Mahmood Ahmad",
   "date": "2026-03-29",
-  "path": "C:\\Projects\\ctgov-analyses/ctgov-industry-disclosure-gap",
+  "path": "https://github.com/mahmood726-cyber/ctgov-industry-disclosure-gap",
   "type": "methods",
   "primary_estimand": "2-year no-results rate among eligible older closed interventional industry studies",
   "summary": "A standalone E156 project on how much long-past non-disclosure and structural sparsity remain inside industry-linked ClinicalTrials.gov records.",
